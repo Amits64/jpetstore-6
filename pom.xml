@@ -39,13 +39,6 @@
 
   <dependencies>
     <!-- Add your existing dependencies here -->
-
-    <!-- Example of adding Selenium WebDriver dependency -->
-    <dependency>
-        <groupId>org.seleniumhq.selenium</groupId>
-        <artifactId>selenium-java</artifactId>
-        <version>3.141.59</version>
-    </dependency>
   </dependencies>
 
   <build>
