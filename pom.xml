@@ -24,6 +24,9 @@
   <url>http://www.mybatis.org</url>
 
   <dependencies>
+    <!-- Existing dependencies... -->
+    
+    <!-- Add missing dependencies -->
     <dependency>
       <groupId>org.mybatis</groupId>
       <artifactId>mybatis</artifactId>
@@ -102,7 +105,6 @@
       <version>2.7.2</version>
       <classifier>jdk8</classifier>
     </dependency>
-    <!-- Add missing dependencies -->
     <dependency>
       <groupId>org.assertj</groupId>
       <artifactId>assertj-core</artifactId>
@@ -119,6 +121,26 @@
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter-engine</artifactId>
       <version>5.9.3</version>
+      <scope>test</scope>
+    </dependency>
+    
+    <!-- Add the missing dependencies -->
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-test</artifactId>
+      <version>5.3.29</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-core</artifactId>
+      <version>3.12.4</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-junit-jupiter</artifactId>
+      <version>3.12.4</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
